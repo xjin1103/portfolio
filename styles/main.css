@@ -145,7 +145,7 @@ header nav ul li a:hover{
 
 .thumbnailLong{
     display: inline-block;
-    width: 65%;
+    width: 64.5%;
     height: auto;
     margin: 0.5%;
     vertical-align: top;
@@ -159,7 +159,7 @@ header nav ul li a:hover{
 
 .thumbnailShort{
     display: inline-block;
-    width: 33%;
+    width: 32.5%;
     height: auto;
     margin: 0.5%;
     vertical-align: top;
@@ -282,7 +282,7 @@ footer p{
     height: auto;
 }
 
-.intro{
+#lightBoxIntro{
     width: 100%;
     padding: 20px;
     text-align: left;

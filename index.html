@@ -79,14 +79,32 @@
             <div class="workSection" id="workPanel">
                 <h2>Work</h2>
                 <div class="thumbnailList" id="workList">
+                    <div class="thumbnailLong thumbnail" id="draft">
+                        <img id="draftImg" src="" alt="thumbnails"/>
+                    </div>
+                    <div class="thumbnailShort thumbnail" id="cat">
+                        <img id="catImg" src="" alt="thumbnails"/>
+                    </div>
+                    <div class="thumbnailShort thumbnail" id="leaves">
+                        <img id="leavesImg" src="" alt="thumbnails"/>
+                    </div>
+                    <div class="thumbnailLong thumbnail" id="firework">
+                        <img id="fireworkImg" src="" alt="thumbnails"/>
+                    </div>
+                    <div class="thumbnailLong thumbnail" id="fall">
+                        <img id="fallImg" src="" alt="thumbnails"/> 
+                    </div>
+                    <div class="thumbnailShort thumbnail" id="fuji">
+                        <img id="fujiImg" src="" alt="thumbnails"/>
+                    </div>
                 </div>
             </div>
             <div class="contactSection" id="contactPanel">
                     <h2>Contact</h2>
                     <p>Required fields are indicated by an asterisk.</p>
-                    <form class="contactForm">
-                    <div class="formMessage">Please fill in all required fields.</div>
-                    <div class="successMsg"></div>
+                    <form class="contactForm" id="myContactForm">
+                    <div class="formMessage" id="emptyFields">Please fill in all required fields.</div>
+                    <div class="successMsg" id="sendResult"></div>
                         <input type="text" class="contactInput input50" id="fname" name="firstName" placeholder="* First Name"/>
                         <input type="text" class="contactInput input50" id="lname" name="lastName" placeholder="* Last Name"/>
                         <input type="email" class="contactInput input100" id="email" name="emailAddr" placeholder="* Email Address"/>
@@ -95,7 +113,11 @@
                     </form>
             </div>
         </div>
-        <div class="lightbox" id="lightBox">         
+        <div class="lightbox" id="lightBox">
+            <div class="innerBox">
+                <img src="" id="lightBoxImg" alt="HD image"/>
+                <p id="lightBoxIntro"></p> 
+            </div>       
         </div>
         <footer>
             <div class="bottomIcons">
